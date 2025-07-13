@@ -1,0 +1,12 @@
+{
+  "name": "CBM Loyalty App",
+  "description": "Webhook integration for Crafty Beer Market Loyalty Engine",
+  "version": "1.0.0",
+  "webhooks": [
+    {
+      "eventType": "order.created",
+      "url": "https://e6d355df060f.ngrok-free.app/webhook/order?token=secret123",
+      "httpMethod": "POST"
+    }
+  ]
+}
