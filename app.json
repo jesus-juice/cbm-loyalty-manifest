@@ -5,7 +5,7 @@
   "webhooks": [
     {
       "eventType": "order.created",
-      "url": "https://e6d355df060f.ngrok-free.app/webhook/order?token=secret123",
+      "url": " https://e6d355df060f.ngrok-free.app -> http://localhost:8000  ",
       "httpMethod": "POST"
     }
   ]
